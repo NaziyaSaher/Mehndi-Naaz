@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mehndi Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>&#127800Naaz_art&#127800</h1>
+        <h2>Mehndi Registration Form</h2>
+        <form id="registrationForm" name="submit-to-google-sheet">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required>
+
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" required>
+
+            <label for="design">Mehndi design</label>
+            <select id="design" name="design" class="select">
+                <option value="Bridal">Bridal Mehndi Design</option>
+                <option value="Khafif">Khafif Mehndi Design</option>
+                <option value="Simple">Simple Mehndi Design</option>
+                <option value="Floral">Floral Mehndi Design</option>
+            </select><br>
+
+            <label for="count">Count of Members</label>
+            <input type="text" id="count" name="count" placeholder="eg: One or 01"><br>
+
+            <label for="eventDate">Event Date:</label>
+            <input type="date" id="eventDate" name="eventDate" required>
+
+            <label for="address">Address</label>
+            <textarea id="address" name="address" placeholder="Enter your Address" required></textarea><br>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    <div class="social-links">
+        <h2>Follow us on social media:</h2>
+        <ul>
+           <u> <h3>Samples design:</h3> </u><li><a href="https://www.snapchat.com/add/naazsaher2021?share_id=QNZ40gTfOUI&locale=en-GB">SnapChat</a></li>
+            <li><a href="https://www.instagram.com/mhndi_naaz/?igsh=MXVuZHVoMTVveGxycg%3D%3D">Instagram</a></li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
